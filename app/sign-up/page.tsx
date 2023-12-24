@@ -49,7 +49,7 @@ const SignUpAccount = () => {
           <Button className="w-full">Create account</Button>
         </CardFooter>
         <p className="flex justify-center mb-4">
-          <Link href="/sign-in">Already have an account? Sign in</Link>
+          <Link href="/sign-in">Already have an account? Sign In</Link>
         </p>
       </Card>
     </div>

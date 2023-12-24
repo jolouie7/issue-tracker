@@ -50,7 +50,15 @@ const SignInAccount = () => {
           <Button className="w-full">Sign In</Button>
         </CardFooter>
         <p className="flex justify-center mb-4">
-          <Link href="/sign-up">Create an account</Link>
+          <Link href="/sign-up">Create an account? Sign Up</Link>
+        </p>
+        <p className="flex justify-center mb-4">
+          <Link
+            className="hover:text-brand underline underline-offset-4"
+            href="#"
+          >
+            Sign In as Demo User
+          </Link>
         </p>
       </Card>
     </div>
